@@ -1,0 +1,23 @@
+// vars
+$white: #fff;
+$black: #0a0a0a;
+$green: #d3e97a;
+$dark-grey: #222222;
+$light-grey: #c7c7c7;
+
+$pfm: "Bebas Neue", sans-serif;
+$sfm: "Manrope", sans-serif;
+
+// lists
+$colors: (
+  "white": $white,
+  "black": $black,
+  "green": $green,
+  "dark-grey": $dark-grey,
+  "light-grey": $light-grey,
+);
+
+$f-families: (
+  "pfm": $pfm,
+  "sfm": $sfm,
+);

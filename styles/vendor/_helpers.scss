@@ -1,0 +1,51 @@
+@each $name, $color in $colors {
+  .text-#{$name} {
+    color: $color;
+  }
+
+  .bg-#{$name} {
+    background-color: $color;
+  }
+}
+
+@for $i from 1 through 20 {
+  .p-#{$i} {
+    padding: $i * 4px;
+  }
+
+  .pt-#{$i} {
+    padding-top: $i * 4px;
+  }
+
+  .pb-#{$i} {
+    padding-bottom: $i * 4px;
+  }
+
+  .pr-#{$i} {
+    padding-right: $i * 4px;
+  }
+  
+  .pl-#{$i} {
+    padding-left: $i * 4px;
+  }
+
+  .m-#{$i} {
+    margin: $i * 4px;
+  }
+
+  .mt-#{$i} {
+    margin-top: $i * 4px;
+  }
+
+  .mb-#{$i} {
+    margin-bottom: $i * 4px;
+  }
+
+  .mr-#{$i} {
+    margin-right: $i * 4px;
+  }
+  
+  .ml-#{$i} {
+    margin-left: $i * 4px;
+  }
+}
